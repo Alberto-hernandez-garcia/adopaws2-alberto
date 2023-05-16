@@ -28,8 +28,9 @@ class RegistrarUsuario : AppCompatActivity() {
         binding.btnCrearCuenta.setOnClickListener(){
             val nomusuario = binding.etUsuario.text.toString()
             val fechanac = binding.etDate.text.toString()
-            val correo = binding.etEmail.text.toString()
             val contrasenia = binding.etPassword.text.toString()
+            val correo = binding.etEmail.text.toString()
+
 
 
             databaseReference = FirebaseDatabase.getInstance().getReference("usuarios")

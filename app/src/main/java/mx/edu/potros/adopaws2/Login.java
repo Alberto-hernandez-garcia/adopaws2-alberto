@@ -90,7 +90,7 @@ public class Login extends AppCompatActivity {
 
                 if(snapshot.exists()){
                     username.setError(null);
-                    String passwordFromDB = snapshot.child(userUsername).child("contrasenia").getValue(String.class);
+                    String passwordFromDB = snapshot.child(userUsername).child("correo").getValue(String.class);
 
                     if(!Objects.equals(passwordFromDB, userPassword)){
                         username.setError(null);
