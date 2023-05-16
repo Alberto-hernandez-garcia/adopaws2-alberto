@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1042349442768",
+    "project_id": "adopet-7b86e",
+    "storage_bucket": "adopet-7b86e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1042349442768:android:c3258eebd064e0eb8680d5",
+        "android_client_info": {
+          "package_name": "mx.edu.potros.adopaws2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1042349442768-vde31sj58no6obvlk0i0f4g11v3do5t2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqsHY2qSpus1A4vnMWaT2V3cAbJQUwqVc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1042349442768-vde31sj58no6obvlk0i0f4g11v3do5t2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
